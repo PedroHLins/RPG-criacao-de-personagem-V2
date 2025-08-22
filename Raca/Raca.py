@@ -4,6 +4,10 @@ class Raca:
         self.movimento = movimento
         self.infra_visao = infra_visao
         self.alinhamento = alinhamento
+        self.habilidades = []
 
     def exibir_habilidades(self):
-        pass
+        print(f"\n<<Habilidades de {self.nome}>>")
+        for hablidade in self.habilidades:
+            print(hablidade, " | ", end="")
+        print("\n")

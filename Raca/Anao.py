@@ -6,6 +6,4 @@ class Anao(Raca):
         self.habilidades = ["Vigoroso", "Armas grandes", "Inimigos"]
 
     def exibir_habilidades(self):
-        print(f"<<Habilidades de Anão>>")
-        for hablidade in self.habilidades:
-            print(hablidade)
+        super().exibir_habilidades()

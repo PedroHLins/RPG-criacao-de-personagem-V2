@@ -6,7 +6,4 @@ class Halfling(Raca):
         self.habilidades = ["Furtivo", "Destemidos", "Bom de mira", "Pequeno", "Restricoes"]
 
     def exibir_habilidades(self):
-
-        print(f"<<Habilidades de Elfo>>")
-        for hablidade in self.habilidades:
-            print(hablidade)
+        super().exibir_habilidades()

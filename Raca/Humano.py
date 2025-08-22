@@ -6,6 +6,4 @@ class Humano(Raca):
         self.habilidades = ["Aprendizado", "Adaptabilidade"]
 
     def exibir_habilidades(self):
-        print(f"<<Habilidades de Humano>>")
-        for hablidade in self.habilidades:
-            print(hablidade)
+        super().exibir_habilidades()
